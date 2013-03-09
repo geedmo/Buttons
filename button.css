@@ -1,0 +1,207 @@
+@CHARSET "UTF-8";
+
+* {
+	margin: 0px; 
+	padding: 0px; 
+	outline: none;
+}
+
+::selection {
+	background: transparent; 
+	}
+::-moz-selection {
+	background: transparent;
+}
+
+@font-face {
+	font-family: Icon;
+	src: 	url('icons/icon.woff'),
+			url('icons/icon.ttf'),
+			url('icons/icon.eot'),
+			url('icons/icon.svg');
+
+}
+
+.Button {
+	width: 124px;
+	height: 48px;
+	float: left;
+	color: #ffffff;
+	line-height: 50px;
+	text-align: center;
+	font-family: Helvetica;
+	font-size: 13px;
+	font-weight: bold;
+	background-color: #EAA980;
+	border: solid 1px #C99674;
+	border-radius: 2px;
+	display: block;
+	cursor: pointer;
+} .Button:hover {
+	background-color: #EAA980;
+	border: solid 1px #AD7955;
+} .Button:active {
+	background-color: #C99674;
+	border: solid 1px #AD7955;
+}    .Button .Icon {
+        width: 36px;
+		height: 48px;
+		float: left;
+		line-height: 50px;
+		text-align: center;
+		font-family: Icon;
+		font-size: 16px;
+        font-weight: normal;
+		border-right: solid 1px #C99674;
+    }
+
+.Button.Post {
+	background-color: #EAA980;
+	border: solid 1px #C99674;
+} .Button.Post:hover {
+	background-color: #EAA980;
+	border: solid 1px #AD7955;
+} .Button.Post:active {
+	background-color: #C99674;
+	border: solid 1px #AD7955;
+}   .Button.Post .Icon {
+        line-height: 46px;
+        font-size: 22px;
+        border-right: solid 1px #C99674;
+    } .Button.Post:hover .Icon {
+        border-right: solid 1px #AD7955;
+    }
+
+.Button.Help {
+	background-color: #A5D5DF;
+	border: solid 1px #8EB7BC;
+} .Button.Help:hover {
+	background-color: #A5D5DF;
+	border: solid 1px #75A4AA;
+} .Button.Help:active {
+	background-color: #93C3C9;
+	border: solid 1px #75A4AA;
+}   .Button.Help .Icon {
+        line-height: 50px;
+        font-size: 20px;
+        border-right: solid 1px #8EB7BC;
+    } .Button.Help:hover .Icon {
+        border-right: solid 1px #75A4AA;
+    }
+
+.Button.Follow {
+	color: #aaaaaa;
+	background-color: #ececec;
+	border: solid 1px #cccccc;
+} .Button.Follow:hover {
+    color: #ffffff;
+	background-color: #74CE7C;
+	border: solid 1px #39B54A;
+} .Button.Follow:active {
+	background-color: #90DD90;
+	border: solid 1px #39B54A;
+}   .Button.Follow .Icon {
+        font-size: 18px;
+        border-right: solid 1px #cccccc;
+    } .Button.Follow:hover .Icon {
+        border-right: solid 1px #39B54A;
+    } .Button.Follow:active .Icon {
+        border-right: solid 1px #39B54A;
+    }
+
+.Button.Following {
+	background-color: #74CE7C;
+	border: solid 1px #39B54A;
+} .Button.Following:hover {
+	background-color: #EA5C70;
+	border: solid 1px #C1212D;
+} .Button.Following:active {
+	background-color: #EA7D8C;
+	border: solid 1px #C1212D;
+}   .Button.Following .Icon {
+        font-size: 22px;
+        border-right: solid 1px #39B54A;
+    } .Button.Following:hover .Icon {
+        border-right: solid 1px #C1212D;
+    } .Button.Following:active .Icon {
+        border-right: solid 1px #C1212D;
+    }
+
+
+.Button.Facebook {
+	background-color: #7C9ACA;
+	border: solid 1px #5271B1;
+} .Button.Facebook:hover {
+	background-color: #5271B1;
+	border: solid 1px #3b5998;
+} .Button.Facebook:active {
+	background-color: #3b5998;
+	border: solid 1px #5271B1;
+}   .Button.Facebook .Icon {
+        font-size: 20px;
+        border-right: solid 1px #5271B1;
+    } .Button.Facebook:hover .Icon {
+        border-right: solid 1px #3b5998;
+    } .Button.Facebook:active .Icon {
+        border-right: solid 1px #5271B1;
+    }
+
+.Button.Cancel {
+    color: #aaaaaa;
+	background-color: #ececec;
+	border: solid 1px #cccccc;
+} .Button.Cancel:hover {
+    color: #ffffff;
+	background-color: #EA5C70;
+	border: solid 1px #C1212D;
+} .Button.Cancel:active {
+	background-color: #EA7D8C;
+	border: solid 1px #C1212D;
+}   .Button.Cancel .Icon {
+        font-size: 20px;
+        border-right: solid 1px #cccccc;
+    } .Button.Cancel:hover .Icon {
+        border-right: solid 1px #C1212D;
+    } .Button.Cancel:active .Icon {
+        border-right: solid 1px #C1212D;
+    }
+
+.Button.Submit {
+	background-color: #EAA980;
+	border: solid 1px #C99674;
+} .Button.Submit:hover {
+	background-color: #74CE7C;
+	border: solid 1px #39B54A;
+} .Button.Submit:active {
+	background-color: #90DD90;
+	border: solid 1px #39B54A;
+}   .Button.Submit .Icon {
+        font-size: 22px;
+        border-right: solid 1px #C99674;
+    } .Button.Submit:hover .Icon {
+        border-right: solid 1px #39B54A;
+    }
+
+.Button.Twitter {
+	background-color: #73CDE5;
+	border: solid 1px #23ABDC;
+} .Button.Twitter:hover {
+	background-color: #23ABDC;
+	border: solid 1px #0787AA;
+} .Button.Twitter:active {
+	background-color: #089AC1;
+	border: solid 1px #0787AA;
+}   .Button.Twitter .Icon {
+        font-size: 23px;
+        border-right: solid 1px #23ABDC;
+    } .Button.Twitter:hover .Icon {
+        border-right: solid 1px #0787AA;
+    }
+
+
+
+
+
+
+
+
